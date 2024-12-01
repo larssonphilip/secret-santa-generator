@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Secret Santa Randomizer 🎅🎁
 
-## Getting Started
+A simple and fun web app to randomize your Secret Santa gift exchange! Ensure everyone gets a gift and everyone gives a gift with ease.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Add any number of participants.
+- Input participant names.
+- Randomize gift-giving to ensure fairness.
+- Built-in validation to guarantee everyone gives and receives a gift.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **React** for building the user interface.
+- **TypeScript** for type safety and maintainability.
+- **Next.js** for a powerful, server-rendered React experience.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## How It Works
 
-## Learn More
+1. Add the number of participants.
+2. Enter each participant's name.
+3. Click the randomize button, and the app will generate a unique pairing for the gift exchange.
 
-To learn more about Next.js, take a look at the following resources:
+The app guarantees:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Each participant gives a gift.
+- Each participant receives a gift.
