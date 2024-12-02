@@ -7,7 +7,7 @@ export default function Home() {
       <SnowfallBackground />
       <div className="z-10 w-full max-w-md">
         <h1 className="text-4xl font-bold text-center text-white mb-8 drop-shadow-lg">
-          Christmas Secret Santa
+          Secret Santa Randomizer
         </h1>
         <SecretSantaForm />
       </div>

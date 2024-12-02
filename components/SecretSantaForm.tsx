@@ -47,7 +47,7 @@ export default function SecretSantaForm() {
       <CardHeader>
         <CardTitle className="flex items-center justify-center text-2xl text-green-800">
           <ChristmasTree className="mr-2" />
-          Secret Santa Assignments
+          Participants
         </CardTitle>
       </CardHeader>
       <CardContent>
